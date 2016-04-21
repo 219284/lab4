@@ -77,7 +77,7 @@ for(int i=5; i>-1;i--)
 for (int i= 0; i<2;i++)
 {
 	if (cyfry[0+3*i]!=0)cout << Setki[cyfry[0+3*i]];	
-	if (cyfry[0+3*i+1]==1) cout << Nascie[cyfry[0+3*i+1]];
+	if (cyfry[0+3*i+1]==1) cout << Nascie[cyfry[0+3*i+2]];
 	if (i==1&&cyfry[0+3*i+1]!=1) cout << Dziesiatki[cyfry[0+3*i+1]] << Jednosci[cyfry[0+3*i+2]];
 	if (i==0&&(cyfry[i]==0&&cyfry[0+i+1]==0&&cyfry[0+i+2]==1)) cout << Tysiace[i+1];
 	if (i==0&&cyfry[i]==0&&cyfry[0+i+1]==0&&cyfry[0+i+2]>1&&cyfry[0+3*i+2]>4) cout << Tysiace[i+2];
